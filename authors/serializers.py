@@ -1,11 +1,11 @@
 from dataclasses import fields
+
 from rest_framework.serializers import HyperlinkedModelSerializer
 
 from .models import Author
 
 
 class AuthorModelSerializer(HyperlinkedModelSerializer):
-  class Meta:
-    model = Author
-    fields = "__all__"
-    
+    class Meta:
+        model = Author
+        fields = "__all__"
