@@ -127,6 +127,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.activate
 
 # Spyder project settings
 .spyderproject
@@ -247,3 +248,8 @@ fabric.properties
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Node.js
+node_modules/
+package-lock.json
+package.json
